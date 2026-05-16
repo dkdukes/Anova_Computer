@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Products from './pages/Products'
+import CreateProduct from './pages/CreateProduct'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/products' element={<Products />}/>
+        <Route path='/create-product' element={<CreateProduct />}/>
       </Routes>
     </Router>
   )
@@ -18,35 +20,3 @@ function App() {
 
 export default App
 
-// // # App.jsx
-
-// import { useState } from "react";
-// import Login from "./pages/Login";
-// import EmployeeDashboard from "./pages/EmployeeDashboard";
-// import EmployerDashboard from "./pages/EmployerDashboard";
-
-// function App() {
-//   const [user, setUser] = useState(null);
-//   const [userRole, setUserRole] = useState(null);
-
-//   // Simple logout function
-//   const logout = () => {
-//     setUser(null);
-//     setUserRole(null);
-//   };
-
-//   if (!user) {
-//     return <Login setUser={setUser} setUserRole={setUserRole} />;
-//   }
-
-//   return (
-//     <div>
-//       <header>
-//         <button onClick={logout}>Logout</button>
-//       </header>
-//       {userRole === "employee" && <EmployeeDashboard/>}
-//       {userRole === "employer" && <EmployerDashboard />}
-//     </div>
-//   );
-// }
-// export default App;
