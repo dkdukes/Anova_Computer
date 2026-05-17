@@ -1,10 +1,19 @@
 import React from "react";
 import { useProducts } from "@/context/ProductsContext";
 import { useParams } from "react-router-dom";
+import { useCart } from "@/context/CartContext";
+import { Link } from "react-router-dom";
+
 function ProductDetails() {
   const { products } = useProducts();
   const { id } = useParams();
   const product = products.find((p) => p.id === Number(id));
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    addToCart(product);
+  };
+
   return (
     <div className="max-w-4xl mx-auto p-4 bg-white rounded-lg shadow-md mt-6 flex flex-col md:flex-row gap-6">
       <div className="md:w-1/2">
@@ -22,9 +31,12 @@ function ProductDetails() {
             </div>
           ))}
         </div>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4" onClick={handleAddToCart}>
           Add to Cart
         </button>
+        <Link to="/cart" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-4">
+          View Cart
+        </Link>
       </div>
     </div>
   );

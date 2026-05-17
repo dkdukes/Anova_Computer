@@ -1,9 +1,8 @@
 import React from 'react'
-import { createContext ,useState,useEffect} from 'react'
+import { createContext ,useState,useContext} from 'react'
 
-export const CartContext = createContext();
-
-const CartContext = ({ children }) => {
+const cartContext = createContext();
+export function CartProvider ({ children }){
   const [cart, setCart] = useState([]);
     const addToCart = (product) => {
         setCart((prevCart) => [...prevCart, product]);
@@ -17,10 +16,10 @@ const CartContext = ({ children }) => {
         setCart([]);
       };
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
+    <cartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
       {children}
-    </CartContext.Provider>
+    </cartContext.Provider>
   )
 }
 
-export default CartContext
+export const useCart=()=>useContext(cartContext)
