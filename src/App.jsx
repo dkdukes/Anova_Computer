@@ -6,6 +6,8 @@ import Products from './pages/Products'
 import CreateProduct from './pages/CreateProduct'
 import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
+import Checkout from './pages/Checkout'
+import ProtectedRoute from './components/ProtectedRoute'
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <Route path='/create-product' element={<CreateProduct />}/>
         <Route path='/products/:id' element={<ProductDetails />}/>
         <Route path='/cart' element={<Cart />}/>
+        <Route element={<ProtectedRoute />}>
+          <Route path='/checkout' element={<Checkout />} />
+        </Route>
       </Routes>
     </Router>
   )

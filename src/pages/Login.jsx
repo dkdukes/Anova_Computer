@@ -13,7 +13,7 @@ function Login() {
         e.preventDefault();
         try {
           await signInWithEmailAndPassword(auth, email, password);
-          navigate("/products"); // Redirect to dashboard after successful login
+          navigate("/checkout"); // Redirect to dashboard after successful login
         } catch (error) {
           console.error("Error logging in:", error);
         }

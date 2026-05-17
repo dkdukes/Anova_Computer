@@ -1,80 +1,150 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useCart } from "@/context/CartContext";
-import { Link } from "react-router-dom";
-import { useProducts } from "@/context/ProductsContext";
-import { useState,useMemo } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 function Cart() {
-  const { cart, removeFromCart, clearCart } = useCart();
-  const { products } = useProducts();
-  const [count, setCount] = useState(1);
+  const { cart, removeFromCart, clearCart, updateQuantity } = useCart();
+  const navigate = useNavigate();
 
-  const handleIncrement = () => {
-    setCount((prevCount) => prevCount + 1);
+  const handleIncrement = (id, quantity) => {
+    updateQuantity(id, quantity + 1);
   };
 
-  const handleDecrement = () => {
-    setCount((prevCount) => (prevCount > 1 ? prevCount - 1 : 1));
+  const handleDecrement = (id, quantity) => {
+    if (quantity > 1) {
+      updateQuantity(id, quantity - 1);
+    }
   };
-
 
   const total_sum = useMemo(() => {
-    return cart.reduce((acc, item) => acc + item.price * count, 0);
-  }, [cart, count]);
+    return cart.reduce(
+      (acc, item) => acc + item.price * item.quantity,
+      0
+    );
+  }, [cart]);
+
+  if (cart.length === 0) {
+    return (
+      <div className="text-center mt-10">
+        <h1 className="text-2xl font-bold mb-4">
+          Your cart is empty
+        </h1>
+
+        <Link
+          to="/products"
+          className="bg-green-500 text-white px-4 py-2 rounded"
+        >
+          Shop Now
+        </Link>
+      </div>
+    );
+  }
 
   return (
-    <div>
-      <h1 className="text-center mb-4 font-bold text-3xl ">Cart</h1>
-      <p className="text-center text-gray-500">
-        This is the cart page. You can view all products in your cart here.
-      </p>
-      <div className="max-w-4xl mx-auto px-4 bg-white rounded-lg shadow-md mt-6 flex gap-2 font-bold text-lg">
-        <h3 className="basis-1/3">Image</h3>
-        <h3 className="basis-2/3">Title</h3>
-        <h3 className="basis-1/3">Price</h3>
-        <h3 className="basis-2/3">Quantity</h3>
-        <h3 className="basis-1/3">Total</h3>
-        <h3 className="basis-1/3">Action</h3>
-      </div>
-      <div className="max-w-4xl mx-auto px-4 bg-white rounded-lg shadow-md mt-6">
-        {cart?.map((item) => (
-          <div
-            key={item.id}
-            className="border p-4 rounded-lg shadow-md flex gap-2"
-          >
-            <img
-              src={item.imageUrl}
-              alt={item.title}
-              className="w-1/3 h-15 object-cover mb-4 rounded basis-1/3"
-            />
-            <h2 className="text-xl font-semibold mb-2 basis-2/3">
-              {item.title}
-            </h2>
-            <p className="text-lg font-bold text-blue-600 basis-1/3">
-              ${item.price}
-            </p>
-            <div className="flex  items-center basis-2/3">
-              <p className="basis-1/3 rounded-lg bg-gray-200 text-center" onClick={handleDecrement}>
-                -
-              </p>
-              <span className="basis-1/3 text-center">{count}</span>
-              <p className="basis-1/3 rounded-lg bg-gray-200 text-center" onClick={handleIncrement}>
-                +
-              </p>
-            </div>
-            <p className="text-lg font-bold text-green-600">
-              ${item.price * count}
-            </p>
-            <button
-              className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded basis-1/3"
-              onClick={() => {
-                removeFromCart(item.id);
-              }}
+    <div className="max-w-6xl mx-auto p-6">
+      <h1 className="text-center mb-6 font-bold text-3xl">
+        Cart
+      </h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* LEFT: Cart Items */}
+        <div className="md:col-span-2 space-y-4">
+          {cart.map((item) => (
+            <div
+              key={item.id}
+              className="border p-4 rounded-lg shadow-md flex items-center gap-4"
             >
-              Remove
+              <img
+                src={item.imageUrl}
+                alt={item.title}
+                className="w-24 h-24 object-cover rounded"
+              />
+
+              <div className="flex-1">
+                <h2 className="font-semibold">
+                  {item.title}
+                </h2>
+
+                <p className="text-blue-600 font-bold">
+                  ${item.price}
+                </p>
+
+                <div className="flex items-center gap-3 mt-2">
+                  <button
+                    className="px-3 py-1 bg-gray-200 rounded"
+                    onClick={() =>
+                      handleDecrement(item.id, item.quantity)
+                    }
+                  >
+                    -
+                  </button>
+
+                  <span>{item.quantity || 1}</span>
+
+                  <button
+                    className="px-3 py-1 bg-gray-200 rounded"
+                    onClick={() =>
+                      handleIncrement(item.id, item.quantity)
+                    }
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+
+              <p className="font-bold text-green-600">
+                ${(item.price * item.quantity).toFixed(2)}
+              </p>
+
+              <button
+                onClick={() => removeFromCart(item.id)}
+                className="bg-red-500 hover:bg-red-700 text-white px-3 py-2 rounded"
+              >
+                Remove
+              </button>
+            </div>
+          ))}
+
+          {/* Actions */}
+          <div className="flex justify-between mt-6">
+            <Link
+              to="/products"
+              className="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded"
+            >
+              Shop More Items
+            </Link>
+
+            <button
+              className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded"
+              onClick={clearCart}
+            >
+              Clear Cart
             </button>
           </div>
-        ))}
+        </div>
+
+        {/* RIGHT: Summary */}
+        <div className="bg-white shadow-md rounded-lg p-6 h-fit">
+          <h2 className="text-xl font-bold mb-4">
+            Your Order
+          </h2>
+
+          <p className="text-lg font-bold">
+            Subtotal: ${total_sum.toFixed(2)}
+          </p>
+
+          <p className="text-sm text-gray-600 mt-2">
+            Shipping and taxes calculated at checkout.
+          </p>
+
+          <button
+            className="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded mt-6 w-full disabled:opacity-50"
+            disabled={cart.length === 0}
+            onClick={() => navigate("/checkout")}
+          >
+            Proceed to Checkout
+          </button>
+        </div>
       </div>
     </div>
   );
