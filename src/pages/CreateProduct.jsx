@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { db } from '@/firebase';
 import { collection, addDoc } from "firebase/firestore";
+import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
+
 const CreateProduct = () => {
         const [name, setName] = useState("");
         const [price, setPrice] = useState("");
@@ -13,9 +15,14 @@ const CreateProduct = () => {
 
         const handleSubmit = async (e) => {
             e.preventDefault();
+            if(!image){
+              return alert("Please upload an image for the product.");
+            }
             try {
               // Upload image to Firebase Storage and get the URL (not implemented here)
-              const imageUrl = "https://via.placeholder.com/150"; // Placeholder image URL
+              const imageRef=ref(getStorage(), `product-images/${image.name}`);
+              await uploadBytes(imageRef, image);
+              const imageUrl=await getDownloadURL(imageRef);
               await addDoc(collection(db, "products"), {
                 name,
                 price,
@@ -64,6 +71,7 @@ const CreateProduct = () => {
                 name="image" 
                 id="image" 
                 className='w-full border p-2 rounded-xl mb-4'
+                onChange={(e) => setImage(e.target.files[0])}
             />
             <button className='bg-orange-400 w-full px-4 py-2 mb-2'>Create Product</button>
         </form>

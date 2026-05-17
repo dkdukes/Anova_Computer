@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "HP Pavilion 15",
+      "price": 650,
+      "description": "15.6-inch laptop with Intel Core i5, 8GB RAM, and 512GB SSD.",
+      "rating": 4.3,
+      "imageUrl": "/assets/hp_pavillion.webp",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Dell Inspiron 14",
+      "price": 720,
+      "description": "Compact Dell laptop with Ryzen 5 processor and Full HD display.",
+      "rating": 4.5,
+      "imageUrl": "/assets/dell_inspiron.webp",
+      "details": {
+        "processor": "AMD Ryzen 5 5500U",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14-inch FHD IPS",
+        "graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Air M2",
+      "price": 1299,
+      "description": "Apple laptop powered by M2 chip with Retina display.",
+      "rating": 4.9,
+      "imageUrl": "/assets/macbook_air.webp",
+      "details": {
+        "processor": "Apple M2",
+        "ram": "8GB unified memory",
+        "storage": "256GB SSD",
+        "display": "13.3-inch Retina",
+        "graphics": "Apple M2 GPU"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lenovo ThinkPad X1",
+      "price": 1450,
+      "description": "Business laptop with Intel Core i7 and durable lightweight design.",
+      "rating": 4.8,
+      "imageUrl": "/assets/lenovo_x1.webp",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "14-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 5,
+      "title": "ASUS ROG Strix G15",
+      "price": 1599,
+      "description": "Gaming laptop with RTX graphics and 144Hz refresh rate.",
+      "rating": 4.7,
+      "imageUrl": "/assets/Asus_G15.webp",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Acer Aspire 5",
+      "price": 540,
+      "description": "Affordable everyday laptop with Ryzen 3 processor.",
+      "rating": 4.1,
+      "imageUrl": "/assets/Acer_aspire5.jpeg",
+      "details": {
+        "processor": "AMD Ryzen 3 3250U",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "id": 7,
+      "title": "MSI Katana GF66",
+      "price": 1180,
+      "description": "High-performance gaming laptop with Intel i7 and RTX 3060.",
+      "rating": 4.6,
+      "imageUrl": "/assets/msi_katana.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Huawei MateBook D15",
+      "price": 699,
+      "description": "Slim ultrabook with fingerprint power button and FullView display.",
+      "rating": 4.4,
+      "imageUrl": "/assets/huawaei_d15.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Samsung Galaxy Book3",
+      "price": 980,
+      "description": "Premium lightweight laptop with AMOLED screen.",
+      "rating": 4.5,
+      "imageUrl": "/assets/samsung_book3.webp",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Razer Blade 15",
+      "price": 2100,
+      "description": "Premium gaming laptop with advanced cooling system.",
+      "rating": 4.8,
+      "imageUrl": "/assets/Razer_15.webp",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Dell XPS 13",
+      "price": 1350,
+      "description": "Ultra-thin premium laptop with InfinityEdge display.",
+      "rating": 4.9,
+      "imageUrl": "/assets/dell_xps13.webp",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "13.4-inch FHD+ InfinityEdge",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 12,
+      "title": "HP Envy x360",
+      "price": 890,
+      "description": "Convertible touchscreen laptop with AMD Ryzen processor.",
+      "rating": 4.4,
+      "imageUrl": "/assets/hp_envy.webp",
+      "details": {
+        "processor": "AMD Ryzen 5 5500U",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "15.6-inch FHD IPS Touchscreen",
+        "graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Acer Predator Helios 300",
+      "price": 1450,
+      "description": "Gaming laptop with RGB keyboard and RTX graphics.",
+      "rating": 4.7,
+      "imageUrl": "/assets/Acer300.webp",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Lenovo IdeaPad 3",
+      "price": 480,
+      "description": "Budget-friendly laptop for students and office work.",
+      "rating": 4.0,
+      "imageUrl": "/assets/lenovo_ideapad3.webp",
+      "details": {
+        "processor": "AMD Ryzen 3 3250U",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Microsoft Surface Laptop 5",
+      "price": 1399,
+      "description": "Elegant touchscreen laptop with premium build quality.",
+      "rating": 4.6,
+      "imageUrl": "/assets/microsoft_surface.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "13.5-inch PixelSense Display",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 16,
+      "title": "LG Gram 17",
+      "price": 1700,
+      "description": "Ultra-light 17-inch laptop with long battery life.",
+      "rating": 4.8,
+      "imageUrl": "/assets/lg_gram.webp",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "17-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 17,
+      "title": "ASUS ZenBook 14",
+      "price": 1050,
+      "description": "Stylish ultrabook with OLED display and Ryzen 7.",
+      "rating": 4.5,
+      "imageUrl": "/assets/asus14.jpeg",
+      "details": {
+        "processor": "AMD Ryzen 7 5700U",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "display": "14-inch OLED",
+        "graphics": "AMD Radeon Graphics"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Alienware m15",
+      "price": 2300,
+      "description": "High-end gaming laptop with advanced graphics performance.",
+      "rating": 4.9,
+      "imageUrl": "/assets/alienm15.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Dell Latitude 7420",
+      "price": 1250,
+      "description": "Business-class laptop with enterprise security features.",
+      "rating": 4.4,
+      "imageUrl": "/assets/dell7420.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 20,
+      "title": "HP Omen 16",
+      "price": 1650,
+      "description": "Gaming laptop with high refresh display and RTX GPU.",
+      "rating": 4.7,
+      "imageUrl": "/assets/hpomen16.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "16.0-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Lenovo Legion 5",
+      "price": 1420,
+      "description": "Gaming laptop with Ryzen 7 and excellent thermals.",
+      "rating": 4.8,
+      "imageUrl": "/assets/lenovo_legion.jpeg",
+      "details": {
+        "processor": "AMD Ryzen 7 5700U",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Acer Swift 3",
+      "price": 760,
+      "description": "Portable laptop with all-day battery life.",
+      "rating": 4.3,
+      "imageUrl": "/assets/acer_swift.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 23,
+      "title": "MSI Stealth 15M",
+      "price": 1500,
+      "description": "Thin gaming laptop with Intel i7 and RTX graphics.",
+      "rating": 4.5,
+      "imageUrl": "/assets/msi_katana.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Samsung Notebook 9",
+      "price": 980,
+      "description": "Lightweight productivity laptop with sleek design.",
+      "rating": 4.2,
+      "imageUrl": "/assets/samsung9.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Apple MacBook Pro 14",
+      "price": 1999,
+      "description": "Professional laptop powered by Apple M3 Pro chip.",
+      "rating": 5.0,
+      "imageUrl": "/assets/apple14.jpeg",
+      "details": {
+        "processor": "Apple M3 Pro",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "14.0-inch Liquid Retina XDR",
+        "graphics": "Apple M3 Pro"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Dell G15 Gaming",
+      "price": 1290,
+      "description": "Powerful gaming laptop with RTX 4050 graphics.",
+      "rating": 4.6,
+      "imageUrl": "/assets/dellg15.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "NVIDIA RTX 4050"
+      }
+    },
+    {
+      "id": 27,
+      "title": "ASUS VivoBook 15",
+      "price": 610,
+      "description": "Affordable laptop with NanoEdge display.",
+      "rating": 4.1,
+      "imageUrl": "/assets/asus14.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Lenovo Yoga 7i",
+      "price": 1120,
+      "description": "Convertible laptop with touchscreen and stylus support.",
+      "rating": 4.5,
+      "imageUrl": "/assets/lenovo7i.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 29,
+      "title": "HP EliteBook 840",
+      "price": 1550,
+      "description": "Premium business ultrabook with advanced security.",
+      "rating": 4.7,
+      "imageUrl": "/assets/hp840.jpeg",
+      "details": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "display": "14.0-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Gigabyte Aero 16",
+      "price": 2200,
+      "description": "Creator-focused laptop with OLED display and RTX graphics.",
+      "rating": 4.8,
+      "imageUrl": "/assets/giga16.jpeg",
+      "details": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "16.0-inch OLED",
+        "graphics": "NVIDIA RTX 3060"
+      }
+    }
+  ]
+}
