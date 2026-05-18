@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
+      // ONLY run search on home/products page
+      if (location.pathname !== "/") return;
+
       if (searchTerm.trim()) {
-        navigate(`/products?search=${encodeURIComponent(searchTerm)}`);
-      } else {
-        navigate("/products");
+        navigate(`/?search=${encodeURIComponent(searchTerm)}`);
       }
-    }, 400); // debounce delay
+    }, 400);
 
     return () => clearTimeout(delayDebounce);
-  }, [searchTerm, navigate]);
+  }, [searchTerm, navigate, location.pathname]);
 
   return (
     <div className="w-full flex justify-center py-4">

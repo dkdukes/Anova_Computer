@@ -31,7 +31,7 @@ function Cart() {
         </h1>
 
         <Link
-          to="/products"
+          to="/"
           className="bg-green-500 text-white px-4 py-2 rounded"
         >
           Shop Now
@@ -108,7 +108,7 @@ function Cart() {
           {/* Actions */}
           <div className="flex justify-between mt-6">
             <Link
-              to="/products"
+              to="/"
               className="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded"
             >
               Shop More Items

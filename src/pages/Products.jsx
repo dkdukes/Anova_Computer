@@ -1,23 +1,19 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useProducts } from "@/context/ProductsContext";
-import NavBar from "@/components/NavBar";
 function Products() {
   const { products } = useProducts();
   const location = useLocation();
   const navigate = useNavigate();
 
-  const searchQuery =
-    new URLSearchParams(location.search).get("search") || "";
+  const searchQuery = new URLSearchParams(location.search).get("search") || "";
 
   const filteredProducts = products.filter((product) =>
-    product.title.toLowerCase().includes(searchQuery.toLowerCase())
+    product.title.toLowerCase().includes(searchQuery.toLowerCase()),
   );
 
   return (
-    
     <div>
-      <NavBar />
       {searchQuery && (
         <h1 className="text-2xl font-bold mb-6">
           Search Results for "{searchQuery}"
@@ -27,27 +23,20 @@ function Products() {
       {filteredProducts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredProducts.map((product) => (
-            <div
-              key={product.id}
-              className="border rounded-lg p-4"
-            >
+            <div key={product.id} className="border rounded-lg p-4">
               <img
                 src={product.imageUrl}
                 alt={product.title}
                 className="w-full h-48 object-cover"
               />
 
-              <h2 className="font-bold mt-2">
-                {product.title}
-              </h2>
+              <h2 className="font-bold mt-2">{product.title}</h2>
 
               <p>Ksh {product.price}</p>
 
               {/* Full width button */}
               <button
-                onClick={() =>
-                  navigate(`/products/${product.id}`)
-                }
+                onClick={() => navigate(`products/${product.id}`)}
                 className="mt-3 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600"
               >
                 View Product

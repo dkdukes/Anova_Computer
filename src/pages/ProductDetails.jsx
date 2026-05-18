@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useProducts } from "@/context/ProductsContext";
 import { useParams, Link } from "react-router-dom";
 import { useCart } from "@/context/CartContext";
+import { useEffect } from "react";
 
 function ProductDetails() {
   const { products } = useProducts();
@@ -10,40 +11,43 @@ function ProductDetails() {
 
   const [quantity, setQuantity] = useState(1);
 
-  const product = products.find(
-    (p) => p.id === Number(id)
-  );
-
-  // Prevent crash while loading
-  if (!product) {
+  // Wait until products are loaded
+  if (!products || products.length === 0) {
     return (
       <div className="text-center mt-10 text-xl">
+        Loading product...
+      </div>
+    );
+  }
+ const product = products.find(
+  (p) => String(p.id) === String(id)
+);
+
+  // Only after loading is complete
+  if (!product) {
+    return (
+      <div className="text-center mt-10 text-xl text-red-500">
         Product not found
       </div>
     );
   }
 
- const handleAddToCart = () => {
+  const handleAddToCart = () => {
   addToCart({
     ...product,
     quantity,
   });
+
+  alert(`${product.title} added to cart`);
 };
-
-  const handleIncrement = () => {
-    setQuantity((prev) => prev + 1);
-  };
-
-  const handleDecrement = () => {
-    setQuantity((prev) =>
-      prev > 1 ? prev - 1 : 1
-    );
-  };
-
+  useEffect(() => {
+  console.log("Mounted ProductDetails:", id);
+  return () => console.log("Unmounted ProductDetails");
+}, []);
   return (
     <div className="max-w-5xl mx-auto p-6 bg-white rounded-lg shadow-md mt-6 flex flex-col md:flex-row gap-8">
       
-      {/* Product Image */}
+      {/* Image */}
       <div className="md:w-1/2">
         <img
           src={product.imageUrl}
@@ -52,7 +56,7 @@ function ProductDetails() {
         />
       </div>
 
-      {/* Product Info */}
+      {/* Info */}
       <div className="md:w-1/2">
         <h1 className="text-3xl font-bold mb-4">
           {product.title}
@@ -66,11 +70,7 @@ function ProductDetails() {
           ${product.price}
         </p>
 
-        {/* Specifications */}
-        <h2 className="text-xl font-semibold mb-3">
-          Specifications
-        </h2>
-
+        {/* Specs */}
         <div className="bg-gray-100 p-4 rounded-lg space-y-2">
           {Object.entries(product.details || {}).map(
             ([key, value]) => (
@@ -81,23 +81,25 @@ function ProductDetails() {
           )}
         </div>
 
-        {/* Quantity Controls */}
+        {/* Quantity */}
         <div className="flex items-center gap-4 mt-6">
           <div className="flex items-center border rounded overflow-hidden">
             <button
-              onClick={handleDecrement}
-              className="px-4 py-2 bg-gray-200 hover:bg-gray-300"
+              onClick={() =>
+                setQuantity((p) => Math.max(1, p - 1))
+              }
+              className="px-4 py-2 bg-gray-200"
             >
               -
             </button>
 
-            <span className="px-6">
-              {quantity}
-            </span>
+            <span className="px-6">{quantity}</span>
 
             <button
-              onClick={handleIncrement}
-              className="px-4 py-2 bg-gray-200 hover:bg-gray-300"
+              onClick={() =>
+                setQuantity((p) => p + 1)
+              }
+              className="px-4 py-2 bg-gray-200"
             >
               +
             </button>
@@ -105,17 +107,12 @@ function ProductDetails() {
 
           <button
             onClick={handleAddToCart}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded"
+            className="bg-blue-500 text-white px-6 py-2 rounded"
           >
             Add to Cart
           </button>
 
-          <Link
-            to="/cart"
-            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-6 rounded"
-          >
-            View Cart
-          </Link>
+          
         </div>
       </div>
     </div>

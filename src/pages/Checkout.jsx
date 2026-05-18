@@ -1,10 +1,11 @@
 import React from "react";
 import { useCart } from "@/context/CartContext";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Checkout() {
-  const { cart } = useCart();
-
+  const { cart,clearCart } = useCart();
+  const navigate = useNavigate();
   const total_sum = cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
@@ -18,7 +19,7 @@ function Checkout() {
         </h1>
 
         <Link
-          to="/products"
+          to="/"
           className="bg-blue-500 text-white px-4 py-2 rounded"
         >
           Continue Shopping
@@ -87,7 +88,12 @@ function Checkout() {
             <span>${total_sum.toFixed(2)}</span>
           </div>
 
-          <button className="w-full bg-blue-500 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold">
+          <button className="w-full bg-blue-500 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold"
+          onClick={() => {
+            alert("Order placed successfully!");
+            clearCart();
+            navigate("/", { replace: true });
+          }}>
             Place Order
           </button>
         </div>

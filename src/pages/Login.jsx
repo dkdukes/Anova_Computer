@@ -1,55 +1,94 @@
-import React from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { auth } from "../firebase";
+import React, { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
-function Login() {
-    const navigate=useNavigate();
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+import { auth } from "@/firebase";
+import { useNavigate, Link } from "react-router-dom";
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-          await signInWithEmailAndPassword(auth, email, password);
-          navigate("/checkout"); // Redirect to dashboard after successful login
-        } catch (error) {
-          console.error("Error logging in:", error);
-        }
-      };
+function Login() {
+  const navigate = useNavigate();
+
+  const [form, setForm] = useState({
+    email: "",
+    password: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      await signInWithEmailAndPassword(
+        auth,
+        form.email,
+        form.password
+      );
+
+      alert("Login successful!");
+      navigate("/");
+    } catch (error) {
+      console.error(error);
+      alert(error.message);
+    }
+
+    setLoading(false);
+  };
 
   return (
-    <div className='max-w-6xl mx-auto bg-gray-100 px-4 py-2'>
-        <div className='max-w-3xl mx-auto bg-white rounded-xl shadow-mg px-4 py-2'>
-            <h1 className='text-center mb-4 font-bold text-3xl '>Login</h1>
-            <form onSubmit={handleSubmit}>
-                <input 
-                type="text" 
-                name="email" 
-                id="email" 
-                placeholder='Enter Email...'
-                className='w-full border p-2 rounded-xl mb-4'
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                />
-                <input 
-                type="password" 
-                name="password" 
-                id="password" 
-                placeholder='Enter Password...'
-                className='w-full border p-2 rounded-xl mb-4'
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                />
-                <button className='bg-orange-400 w-full px-4 py-2 mb-2'>Login</button>
-                <p>Don't have an account? <Link to="/signup" className='text-blue-300 cursor-pointer'>Sign up</Link></p>
-            </form>
-        </div>
+    <div className="max-w-2xl mx-auto bg-white p-6 mt-10 shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold mb-6 text-center">
+        Login
+      </h1>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+
+        {/* Email */}
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          value={form.email}
+          onChange={handleChange}
+          className="w-full border p-3 rounded"
+          required
+        />
+
+        {/* Password */}
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          value={form.password}
+          onChange={handleChange}
+          className="w-full border p-3 rounded"
+          required
+        />
+
+        {/* Submit */}
+        <button
+          type="submit"
+          disabled={loading}
+          className="w-full bg-green-500 text-white py-3 rounded hover:bg-green-600 disabled:opacity-50"
+        >
+          {loading ? "Logging in..." : "Login"}
+        </button>
+      </form>
+
+      <p className="text-center mt-4">
+        Don't have an account?{" "}
+        <Link to="/signup" className="text-blue-500">
+          Sign up
+        </Link>
+      </p>
     </div>
-  )
+  );
 }
 
-export default Login
-
-
+export default Login;
