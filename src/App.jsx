@@ -10,20 +10,20 @@ import Checkout from "./pages/Checkout";
 
 import ProtectedRoute from "./components/ProtectedRoute";
 import MainLayout from "./layout/MainLayout";
-
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* Public Routes */}
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
-
         {/* Shared Layout */}
         <Route element={<MainLayout />}>
+          <Route path="/home" element={<Home />} />
           <Route path="/" element={<Products />} />
           <Route path="products/:id" element={<ProductDetails />} />
+
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
 
           {/* Protected Routes */}
           <Route element={<ProtectedRoute />}>
