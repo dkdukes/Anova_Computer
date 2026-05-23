@@ -7,11 +7,22 @@ function Products() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const searchQuery = new URLSearchParams(location.search).get("search") || "";
+  const params = new URLSearchParams(location.search);
 
-  const filteredProducts = products.filter((product) =>
-    product.title.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
+  const searchQuery = params.get("search") || "";
+  const categoryQuery = params.get("category") || "";
+
+  const filteredProducts = products.filter((product) => {
+    const matchesSearch = product.title
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase());
+
+    const matchesCategory = categoryQuery
+      ? product.category?.toLowerCase() === categoryQuery.toLowerCase()
+      : true;
+
+    return matchesSearch && matchesCategory;
+  });
 
   return (
     <div>
