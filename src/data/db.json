@@ -7,6 +7,7 @@
       "description": "15.6-inch laptop with Intel Core i5, 8GB RAM, and 512GB SSD.",
       "rating": 4.3,
       "imageUrl": "/assets/hp_pavillion.webp",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -24,6 +25,7 @@
       "description": "Compact Dell laptop with Ryzen 5 processor and Full HD display.",
       "rating": 4.5,
       "imageUrl": "/assets/dell_inspiron.webp",
+      "discount": 10,
       "details": {
         "processor": "AMD Ryzen 5 5500U",
         "ram": "8GB DDR4",
@@ -41,6 +43,7 @@
       "description": "Apple laptop powered by M2 chip with Retina display.",
       "rating": 4.9,
       "imageUrl": "/assets/macbook_air.webp",
+      "discount": 15,
       "details": {
         "processor": "Apple M2",
         "ram": "8GB unified memory",
@@ -58,6 +61,7 @@
       "description": "Business laptop with Intel Core i7 and durable lightweight design.",
       "rating": 4.8,
       "imageUrl": "/assets/lenovo_x1.webp",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -75,6 +79,7 @@
       "description": "Gaming laptop with RTX graphics and 144Hz refresh rate.",
       "rating": 4.7,
       "imageUrl": "/assets/Asus_G15.webp",
+      "discount": 20,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -92,6 +97,7 @@
       "description": "Affordable everyday laptop with Ryzen 3 processor.",
       "rating": 4.1,
       "imageUrl": "/assets/Acer_aspire5.jpeg",
+      "discount": 5,
       "details": {
         "processor": "AMD Ryzen 3 3250U",
         "ram": "8GB DDR4",
@@ -107,6 +113,7 @@
       "description": "High-performance gaming laptop with Intel i7 and RTX 3060.",
       "rating": 4.6,
       "imageUrl": "/assets/msi_katana.jpeg",
+      "discount": 15,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -124,6 +131,7 @@
       "description": "Slim ultrabook with fingerprint power button and FullView display.",
       "rating": 4.4,
       "imageUrl": "/assets/huawaei_d15.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -141,6 +149,7 @@
       "description": "Premium lightweight laptop with AMOLED screen.",
       "rating": 4.5,
       "imageUrl": "/assets/samsung_book3.webp",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -158,6 +167,7 @@
       "description": "Premium gaming laptop with advanced cooling system.",
       "rating": 4.8,
       "imageUrl": "/assets/Razer_15.webp",
+      "discount": 15,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -175,6 +185,7 @@
       "description": "Ultra-thin premium laptop with InfinityEdge display.",
       "rating": 4.9,
       "imageUrl": "/assets/dell_xps13.webp",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -192,6 +203,7 @@
       "description": "Convertible touchscreen laptop with AMD Ryzen processor.",
       "rating": 4.4,
       "imageUrl": "/assets/hp_envy.webp",
+      "discount": 10,
       "details": {
         "processor": "AMD Ryzen 5 5500U",
         "ram": "8GB DDR4",
@@ -209,6 +221,7 @@
       "description": "Gaming laptop with RGB keyboard and RTX graphics.",
       "rating": 4.7,
       "imageUrl": "/assets/Acer300.webp",
+      "discount": 15,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -226,6 +239,7 @@
       "description": "Budget-friendly laptop for students and office work.",
       "rating": 4.0,
       "imageUrl": "/assets/lenovo_ideapad3.webp",
+      "discount": 10,
       "details": {
         "processor": "AMD Ryzen 3 3250U",
         "ram": "8GB DDR4",
@@ -243,6 +257,7 @@
       "description": "Elegant touchscreen laptop with premium build quality.",
       "rating": 4.6,
       "imageUrl": "/assets/microsoft_surface.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -260,6 +275,7 @@
       "description": "Ultra-light 17-inch laptop with long battery life.",
       "rating": 4.8,
       "imageUrl": "/assets/lg_gram.webp",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -277,6 +293,7 @@
       "description": "Stylish ultrabook with OLED display and Ryzen 7.",
       "rating": 4.5,
       "imageUrl": "/assets/asus14.jpeg",
+      "discount": 15,
       "details": {
         "processor": "AMD Ryzen 7 5700U",
         "ram": "16GB DDR4",
@@ -294,6 +311,7 @@
       "description": "High-end gaming laptop with advanced graphics performance.",
       "rating": 4.9,
       "imageUrl": "/assets/alienm15.jpeg",
+      "discount": 20,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -311,6 +329,7 @@
       "description": "Business-class laptop with enterprise security features.",
       "rating": 4.4,
       "imageUrl": "/assets/dell7420.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -328,6 +347,7 @@
       "description": "Gaming laptop with high refresh display and RTX GPU.",
       "rating": 4.7,
       "imageUrl": "/assets/hpomen16.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -345,6 +365,7 @@
       "description": "Gaming laptop with Ryzen 7 and excellent thermals.",
       "rating": 4.8,
       "imageUrl": "/assets/lenovo_legion.jpeg",
+      "discount": 15,
       "details": {
         "processor": "AMD Ryzen 7 5700U",
         "ram": "16GB DDR4",
@@ -362,6 +383,7 @@
       "description": "Portable laptop with all-day battery life.",
       "rating": 4.3,
       "imageUrl": "/assets/acer_swift.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -379,6 +401,7 @@
       "description": "Thin gaming laptop with Intel i7 and RTX graphics.",
       "rating": 4.5,
       "imageUrl": "/assets/msi_katana.jpeg",
+      "discount": 15,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -396,6 +419,7 @@
       "description": "Lightweight productivity laptop with sleek design.",
       "rating": 4.2,
       "imageUrl": "/assets/samsung9.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -413,6 +437,7 @@
       "description": "Professional laptop powered by Apple M3 Pro chip.",
       "rating": 5.0,
       "imageUrl": "/assets/apple14.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Apple M3 Pro",
         "ram": "16GB LPDDR4x",
@@ -430,6 +455,7 @@
       "description": "Powerful gaming laptop with RTX 4050 graphics.",
       "rating": 4.6,
       "imageUrl": "/assets/dellg15.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -447,6 +473,7 @@
       "description": "Affordable laptop with NanoEdge display.",
       "rating": 4.1,
       "imageUrl": "/assets/asus14.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -464,6 +491,7 @@
       "description": "Convertible laptop with touchscreen and stylus support.",
       "rating": 4.5,
       "imageUrl": "/assets/lenovo7i.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -481,6 +509,7 @@
       "description": "Premium business ultrabook with advanced security.",
       "rating": 4.7,
       "imageUrl": "/assets/hp840.jpeg",
+      "discount": 10,
       "details": {
         "processor": "Intel Core i5-1135G7",
         "ram": "8GB DDR4",
@@ -498,6 +527,7 @@
       "description": "Creator-focused laptop with OLED display and RTX graphics.",
       "rating": 4.8,
       "imageUrl": "/assets/giga16.jpeg",
+      "discount": 15,
       "details": {
         "processor": "Intel Core i7-1165G7",
         "ram": "16GB LPDDR4x",
@@ -515,6 +545,7 @@
     "description": "Apple flagship smartphone with A17 Pro chip and advanced camera system.",
     "rating": 4.9,
     "imageUrl": "/assets/second/iphone15.webp",
+    "discount": 20,
     "details": {
       "processor": "Apple A17 Pro",
       "ram": "8GB",
@@ -532,6 +563,7 @@
     "description": "Premium Android phone with S-Pen support and AI-powered features.",
     "rating": 4.8,
     "imageUrl": "/assets/second/samsungs24.webp",
+    "discount": 15,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -549,6 +581,7 @@
     "description": "Google smartphone with advanced AI camera and smooth Android experience.",
     "rating": 4.7,
     "imageUrl": "/assets/second/google8.webp",
+    "discount": 10,
     "details": {
       "processor": "Google Tensor G2",
       "ram": "12GB",
@@ -566,6 +599,7 @@
     "description": "Fast performance smartphone with AMOLED display and Hasselblad cameras.",
     "rating": 4.6,
     "imageUrl": "/assets/second/one12.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -583,6 +617,7 @@
     "description": "High-end Xiaomi smartphone with Leica-powered camera setup.",
     "rating": 4.5,
     "imageUrl": "/assets/second/xiami14.webp",
+    "discount": 15,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -600,6 +635,7 @@
     "description": "Affordable smartphone with fast charging and high refresh display.",
     "rating": 4.4,
     "imageUrl": "/assets/second/infinixul.jpeg",
+    "discount": 20,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -617,6 +653,7 @@
     "description": "Stylish smartphone with powerful performance and long battery life.",
     "rating": 4.3,
     "imageUrl": "/assets/second/tecnox2.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -634,6 +671,7 @@
     "description": "Elegant smartphone with portrait photography enhancements.",
     "rating": 4.4,
     "imageUrl": "/assets/second/oppo11.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -651,6 +689,7 @@
     "description": "Camera-centric smartphone with ZEISS imaging technology.",
     "rating": 4.5,
     "imageUrl": "/assets/second/vivo30.jpeg",
+    "discount": 15,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -668,6 +707,7 @@
     "description": "Premium smartphone with advanced mobile photography features.",
     "rating": 4.6,
     "imageUrl": "/assets/second/huawaeip60.jpeg",
+    "discount": 15,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -685,6 +725,7 @@
     "description": "Apple laptop powered by M3 chip for professional workflows.",
     "rating": 4.9,
     "imageUrl": "/assets/second/macbookm3.jpeg",
+    "discount": 15,
     "details": {
       "processor": "Apple M3",
       "ram": "16GB",
@@ -702,6 +743,7 @@
     "description": "Premium ultrabook with InfinityEdge display and Intel Core i9.",
     "rating": 4.8,
     "imageUrl": "/assets/second/dell15.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Intel Core i9",
       "ram": "16GB",
@@ -719,6 +761,7 @@
     "description": "Convertible laptop with touchscreen and elegant design.",
     "rating": 4.7,
     "imageUrl": "/assets/second/hpx360.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Intel Core i7",
       "ram": "16GB",
@@ -736,6 +779,7 @@
     "description": "Business laptop with durable build and excellent keyboard.",
     "rating": 4.8,
     "imageUrl": "/assets/second/lenovox1.jpeg",
+    "discount": 15,
     "details": {
       "processor": "Intel Core i7",
       "ram": "16GB",
@@ -753,6 +797,7 @@
     "description": "Compact gaming laptop with Ryzen processor and RTX graphics.",
     "rating": 4.9,
     "imageUrl": "/assets/second/asus.jpeg",
+    "discount": 20,
     "details": {
       "processor": "Ryzen 9",
       "ram": "16GB",
@@ -770,6 +815,7 @@
     "description": "Gaming laptop with high refresh rate display and RTX GPU.",
     "rating": 4.6,
     "imageUrl": "/assets/second/acer300.jpeg",
+    "discount": 15,
     "details": {
       "processor": "Intel Core i7",
       "ram": "16GB",
@@ -787,6 +833,7 @@
     "description": "Advanced wireless mouse designed for productivity and comfort.",
     "rating": 4.9,
     "imageUrl": "/assets/second/logitechmx.jpeg",
+    "discount": 10,
     "details": {
       "processor": "Snapdragon 8 Gen 2",
       "ram": "12GB",
@@ -804,6 +851,7 @@
     "description": "Durable mechanical keyboard with customizable RGB lighting.",
     "rating": 4.7,
     "imageUrl": "/assets/second/rgbkey.jpeg",
+    "discount": 10,
     "details": {
       "switch": "Cherry MX Red",
       "lighting": "RGB"
@@ -818,6 +866,7 @@
     "description": "Efficient cooling pad with multiple silent fans.",
     "rating": 4.4,
     "imageUrl": "/assets/second/laptopcool.jpeg",
+    "discount": 10,
     "details": {
       "fans": "Multiple silent fans"
     },
@@ -831,6 +880,7 @@
     "description": "Multi-port docking station for laptops and external displays.",
     "rating": 4.8,
     "imageUrl": "/assets/second/usbc.jpeg",
+    "discount": 10,
     "details": {
       "ports": "Multiple USB-C ports"
     },
@@ -844,6 +894,7 @@
     "description": "Portable wireless mouse with ergonomic design.",
     "rating": 4.5,
     "imageUrl": "/assets/second/mousew.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -857,6 +908,7 @@
     "description": "Fast portable SSD for backups and file transfers.",
     "rating": 4.8,
     "imageUrl": "/assets/second/ssdexter.jpeg",
+    "discount": 15,
     "details": {
       "storage": "1TB"
     },
@@ -870,6 +922,7 @@
     "description": "Water-resistant backpack with laptop compartment.",
     "rating": 4.6,
     "imageUrl": "/assets/second/backpack.jpeg",
+    "discount": 10,
     "details": {
       "compartment": "Laptop compartment"
     },
@@ -883,6 +936,7 @@
     "description": "Premium over-ear headphones with active noise cancellation.",
     "rating": 4.9,
     "imageUrl": "/assets/second/headphones.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -896,6 +950,7 @@
     "description": "1080p webcam ideal for streaming and video conferencing.",
     "rating": 4.5,
     "imageUrl": "/assets/second/webcam.jpeg",
+    "discount": 10,
     "details": {
       "resolution": "1080p"
     },
@@ -909,6 +964,7 @@
     "description": "Ergonomic adjustable stand for improved posture.",
     "rating": 4.7,
     "imageUrl": "/assets/second/standlap.jpeg",
+    "discount": 10,
     "details": {
       "adjustability": "Ergonomic adjustable"
     },
@@ -922,6 +978,7 @@
     "description": "All-in-one wireless printer with refillable ink tank.",
     "rating": 4.6,
     "imageUrl": "/assets/second/canong6020.jpeg",
+    "discount": 15,
     "details": {
       "connectivity": "Wireless"
     },
@@ -935,6 +992,7 @@
     "description": "Reliable monochrome laser printer for office use.",
     "rating": 4.7,
     "imageUrl": "/assets/second/hplaserpro.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -948,6 +1006,7 @@
     "description": "EcoTank printer with cartridge-free printing system.",
     "rating": 4.8,
     "imageUrl": "/assets/second/epsoneco.jpeg",
+    "discount": 15,
     "details": {
       "connectivity": "Wireless"
     },
@@ -961,6 +1020,7 @@
     "description": "Compact monochrome laser printer with wireless connectivity.",
     "rating": 4.5,
     "imageUrl": "/assets/second/brotherhl.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -974,6 +1034,7 @@
     "description": "Compact wireless printer suitable for home offices.",
     "rating": 4.4,
     "imageUrl": "/assets/second/samsungm2020.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -987,6 +1048,7 @@
     "description": "Mini portable printer for instant smartphone photos.",
     "rating": 4.3,
     "imageUrl": "/assets/second/portable.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -1000,6 +1062,7 @@
     "description": "True wireless earbuds with immersive sound quality.",
     "rating": 4.7,
     "imageUrl": "/assets/second/earbudspro.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wireless"
     },
@@ -1013,6 +1076,7 @@
     "description": "Large mouse pad optimized for gaming precision.",
     "rating": 4.5,
     "imageUrl": "/assets/second/mousew.jpeg",
+    "discount": 10,
     "details": {
       "size": "XL"
     },
@@ -1026,6 +1090,7 @@
     "description": "65W fast charger compatible with phones and laptops.",
     "rating": 4.8,
     "imageUrl": "/assets/second/usbccharger.jpeg",
+    "discount": 10,
     "details": {
       "power": "65W"
     },
@@ -1039,6 +1104,7 @@
     "description": "Portable speaker with deep bass and waterproof design.",
     "rating": 4.6,
     "imageUrl": "/assets/second/speaker.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Bluetooth"
     },
@@ -1052,6 +1118,7 @@
     "description": "Ultra HD monitor ideal for gaming and productivity.",
     "rating": 4.8,
     "imageUrl": "/assets/second/4kmonitor.jpeg",
+    "discount": 10,
     "details": {
       "resolution": "4K"
     },
@@ -1065,6 +1132,7 @@
     "description": "Adjustable tripod stand for smartphones and cameras.",
     "rating": 4.4,
     "imageUrl": "/assets/second/tripod.jpeg",
+    "discount": 10,
     "details": {
       "adjustability": "Adjustable"
     },
@@ -1078,6 +1146,7 @@
     "description": "Surround sound gaming headset with detachable microphone.",
     "rating": 4.7,
     "imageUrl": "/assets/second/gaming-head.jpeg",
+    "discount": 10,
     "details": {
       "connectivity": "Wired"
     },
@@ -1091,6 +1160,7 @@
     "description": "High-capacity power bank with fast charging support.",
     "rating": 4.6,
     "imageUrl": "/assets/second/powerbank.jpeg",
+    "discount": 10,
     "details": {
       "capacity": "20000mAh"
     },
