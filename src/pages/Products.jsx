@@ -32,7 +32,7 @@ function Products() {
 
               <h2 className="font-bold mt-2">{product.title}</h2>
 
-              <p>Ksh {product.price}</p>
+              <p>$ {product.price}</p>
 
               {/* Full width button */}
               <button

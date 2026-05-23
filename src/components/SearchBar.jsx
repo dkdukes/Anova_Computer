@@ -8,11 +8,16 @@ function SearchBar() {
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
-      // ONLY run search on home/products page
+      // Only allow search on homepage
       if (location.pathname !== "/") return;
 
-      if (searchTerm.trim()) {
-        navigate(`/?search=${encodeURIComponent(searchTerm)}`);
+      const trimmed = searchTerm.trim();
+
+      if (trimmed) {
+        navigate(`/?search=${encodeURIComponent(trimmed)}`);
+      } else {
+        // important: clear query when input is empty
+        navigate("/");
       }
     }, 400);
 

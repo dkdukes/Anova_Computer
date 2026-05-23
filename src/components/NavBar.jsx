@@ -29,8 +29,8 @@ function NavBar() {
     <nav className="sticky top-0 z-50 bg-gray-900 text-white px-6 py-4 flex items-center justify-between shadow-md">
 
       {/* Logo */}
-      <Link to="/" className="text-xl font-bold">
-        Anova Computers
+      <Link to="/" className="text-xl font-bold hover:bg-gray-800 px-3 py-2 rounded-md">
+        Anova Technologies
       </Link>
 
       {/* Search */}

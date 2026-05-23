@@ -13,7 +13,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The HP Pavilion 15 is a versatile laptop designed for everyday use. It features a powerful Intel Core i5 processor, 8GB of RAM for smooth multitasking, and a fast 512GB SSD for ample storage. The 15.6-inch Full HD IPS display delivers vibrant visuals, making it ideal for work, entertainment, and creative tasks. With its sleek design and reliable performance, the HP Pavilion 15 is a great choice for students, professionals, and casual users alike. Whether you're browsing the web, streaming videos, or working on projects, this laptop provides a seamless experience with its efficient hardware and user-friendly features. Additionally, it offers a comfortable keyboard and a variety of ports for connectivity, making it a well-rounded option for those seeking a balance of performance and affordability in a laptop. Overall, the HP Pavilion 15 is a solid choice for anyone looking for a reliable and capable laptop for their daily computing needs."
     },
     {
       "id": 2,
@@ -28,7 +30,9 @@
         "storage": "256GB SSD",
         "display": "14-inch FHD IPS",
         "graphics": "AMD Radeon Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Dell Inspiron 14 is a compact and powerful laptop designed for everyday use. It features a capable AMD Ryzen 5 processor, 8GB of RAM for smooth multitasking, and a fast 256GB SSD for ample storage. The 14-inch Full HD IPS display delivers vibrant visuals, making it ideal for work, entertainment, and creative tasks. With its sleek design and reliable performance, the Dell Inspiron 14 is a great choice for students, professionals, and casual users alike. Whether you're browsing the web, streaming videos, or working on projects, this laptop provides a seamless experience with its efficient hardware and user-friendly features. Additionally, it offers a comfortable keyboard and a variety of ports for connectivity, making it a well-rounded option for those seeking a balance of performance and affordability in a laptop. Overall, the Dell Inspiron 14 is a solid choice for anyone looking for a reliable and capable laptop for their daily computing needs."
     },
     {
       "id": 3,
@@ -43,7 +47,9 @@
         "storage": "256GB SSD",
         "display": "13.3-inch Retina",
         "graphics": "Apple M2 GPU"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The MacBook Air M2 is a sleek and powerful laptop designed for everyday use. It features a cutting-edge Apple M2 chip, 8GB of unified memory for smooth multitasking, and a fast 256GB SSD for ample storage. The 13.3-inch Retina display delivers stunning visuals, making it ideal for work, entertainment, and creative tasks. With its lightweight design and reliable performance, the MacBook Air M2 is a great choice for students, professionals, and casual users alike. Whether you're browsing the web, streaming videos, or working on projects, this laptop provides a seamless experience with its efficient hardware and user-friendly features. Additionally, it offers a comfortable keyboard and a variety of ports for connectivity, making it a well-rounded option for those seeking a balance of performance and affordability in a laptop. Overall, the MacBook Air M2 is a solid choice for anyone looking for a reliable and capable laptop for their daily computing needs."
     },
     {
       "id": 4,
@@ -58,7 +64,9 @@
         "storage": "512GB SSD",
         "display": "14-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Lenovo ThinkPad X1 is a business-oriented laptop designed for professionals who need a reliable and durable machine. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 14-inch FHD IPS display provides clear visuals, making it ideal for work and productivity tasks. With its lightweight design and robust build quality, the Lenovo ThinkPad X1 is a great choice for business users who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 5,
@@ -73,7 +81,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The ASUS ROG Strix G15 is a high-performance gaming laptop designed for enthusiasts who demand the best. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides crisp visuals with a 144Hz refresh rate, making it ideal for competitive gaming. With its advanced cooling system and powerful NVIDIA RTX 3060 graphics, the ASUS ROG Strix G15 delivers exceptional performance for both gaming and productivity tasks."
     },
     {
       "id": 6,
@@ -103,7 +113,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The MSI Katana GF66 is a high-performance gaming laptop designed for enthusiasts who demand the best. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides crisp visuals with a 144Hz refresh rate, making it ideal for competitive gaming. With its advanced cooling system and powerful NVIDIA RTX 3060 graphics, the MSI Katana GF66 delivers exceptional performance for both gaming and productivity tasks."
     },
     {
       "id": 8,
@@ -118,7 +130,9 @@
         "storage": "256GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Huawei MateBook D15 is a slim ultrabook designed for professionals who need a reliable and durable machine. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 15.6-inch FHD IPS display provides clear visuals, making it ideal for work and productivity tasks. With its lightweight design and robust build quality, the Huawei MateBook D15 is a great choice for business users who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 9,
@@ -133,7 +147,9 @@
         "storage": "256GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Samsung Galaxy Book3 is a premium lightweight laptop with an AMOLED screen. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 15.6-inch FHD IPS display provides clear visuals, making it ideal for work and productivity tasks. With its sleek design and robust build quality, the Samsung Galaxy Book3 is a great choice for professionals who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 10,
@@ -148,7 +164,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Razer Blade 15 is a premium gaming laptop with an advanced cooling system. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides crisp visuals with a 144Hz refresh rate, making it ideal for competitive gaming. With its sleek design and powerful NVIDIA RTX 3060 graphics, the Razer Blade 15 delivers exceptional performance for both gaming and productivity tasks."
     },
     {
       "id": 11,
@@ -163,7 +181,9 @@
         "storage": "512GB SSD",
         "display": "13.4-inch FHD+ InfinityEdge",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Dell XPS 13 is an ultra-thin premium laptop with an InfinityEdge display. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 13.4-inch FHD+ InfinityEdge display provides stunning visuals, making it ideal for work and productivity tasks. With its sleek design and robust build quality, the Dell XPS 13 is a great choice for professionals who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 12,
@@ -178,7 +198,9 @@
         "storage": "256GB SSD",
         "display": "15.6-inch FHD IPS Touchscreen",
         "graphics": "AMD Radeon Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The HP Envy x360 is a convertible touchscreen laptop with an AMD Ryzen processor. It features an AMD Ryzen 5 5500U processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 15.6-inch FHD IPS Touchscreen display provides clear visuals, making it ideal for work and productivity tasks. With its sleek design and robust build quality, the HP Envy x360 is a great choice for professionals who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 13,
@@ -193,7 +215,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Acer Predator Helios 300 is a high-performance gaming laptop with an RGB keyboard and powerful RTX graphics. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides crisp visuals, making it ideal for competitive gaming. With its sleek design and powerful NVIDIA RTX 3060 graphics, the Acer Predator Helios 300 delivers exceptional performance for both gaming and productivity tasks."
     },
     {
       "id": 14,
@@ -208,7 +232,9 @@
         "storage": "256GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "AMD Radeon Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Lenovo IdeaPad 3 is a budget-friendly laptop for students and office work. It features an AMD Ryzen 3 3250U processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 15.6-inch FHD IPS display provides clear visuals, making it ideal for everyday computing tasks. With its sleek design and affordable price, the Lenovo IdeaPad 3 is a great choice for students and professionals who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 15,
@@ -223,7 +249,9 @@
         "storage": "512GB SSD",
         "display": "13.5-inch PixelSense Display",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Microsoft Surface Laptop 5 is an elegant touchscreen laptop with premium build quality. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 13.5-inch PixelSense Display provides stunning visuals, making it ideal for work and productivity tasks. With its sleek design and robust build quality, the Microsoft Surface Laptop 5 is a great choice for professionals who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 16,
@@ -238,7 +266,9 @@
         "storage": "256GB SSD",
         "display": "17-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The LG Gram 17 is an ultra-light 17-inch laptop with long battery life. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 17-inch FHD IPS display provides clear visuals, making it ideal for everyday computing tasks. With its sleek design and extended battery life, the LG Gram 17 is a great choice for students and professionals who need a portable laptop for their daily computing needs."
     },
     {
       "id": 17,
@@ -253,7 +283,9 @@
         "storage": "512GB SSD",
         "display": "14-inch OLED",
         "graphics": "AMD Radeon Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The ASUS ZenBook 14 is a stylish ultrabook with an OLED display and AMD Ryzen 7 processor. It features 16GB of DDR4 memory and a fast 512GB SSD for ample storage. The 14-inch OLED display provides vibrant visuals, making it ideal for creative work and everyday computing tasks. With its sleek design and powerful performance, the ASUS ZenBook 14 is a great choice for professionals who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 18,
@@ -268,7 +300,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Alienware m15 is a high-end gaming laptop with advanced graphics performance. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides stunning visuals, making it ideal for immersive gaming experiences. With its sleek design and powerful performance, the Alienware m15 is a great choice for gamers who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 19,
@@ -283,7 +317,9 @@
         "storage": "512GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Dell Latitude 7420 is a business-class laptop with enterprise security features. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for professional use. With its robust build quality and advanced security features, the Dell Latitude 7420 is a great choice for businesses that need a reliable laptop for their employees."
     },
     {
       "id": 20,
@@ -298,7 +334,9 @@
         "storage": "512GB SSD",
         "display": "16.0-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The HP Omen 16 is a gaming laptop with a high refresh display and RTX GPU. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 16.0-inch FHD IPS display provides stunning visuals, making it ideal for immersive gaming experiences. With its sleek design and powerful performance, the HP Omen 16 is a great choice for gamers who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 21,
@@ -313,7 +351,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Lenovo Legion 5 is a gaming laptop with an AMD Ryzen 7 processor and excellent thermals. It features 16GB of DDR4 memory and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides stunning visuals, making it ideal for immersive gaming experiences. With its sleek design and powerful performance, the Lenovo Legion 5 is a great choice for gamers who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 22,
@@ -328,7 +368,9 @@
         "storage": "256GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Acer Swift 3 is a portable laptop with all-day battery life. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for everyday use. With its lightweight design and long battery life, the Acer Swift 3 is a great choice for users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 23,
@@ -343,7 +385,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 3060"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The MSI Stealth 15M is a thin gaming laptop with an Intel i7 processor and RTX graphics. It features 16GB of LPDDR4x memory and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides stunning visuals, making it ideal for immersive gaming experiences. With its sleek design and powerful performance, the MSI Stealth 15M is a great choice for gamers who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 24,
@@ -358,7 +402,9 @@
         "storage": "256GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Samsung Notebook 9 is a lightweight productivity laptop with a sleek design. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for everyday use. With its lightweight design and long battery life, the Samsung Notebook 9 is a great choice for users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 25,
@@ -373,7 +419,9 @@
         "storage": "512GB SSD",
         "display": "14.0-inch Liquid Retina XDR",
         "graphics": "Apple M3 Pro"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Apple MacBook Pro 14 is a professional laptop powered by the Apple M3 Pro chip. It features 16GB of LPDDR4x memory and a fast 512GB SSD for ample storage. The 14.0-inch Liquid Retina XDR display provides stunning visuals, making it ideal for creative professionals. With its sleek design and powerful performance, the Apple MacBook Pro 14 is a great choice for users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 26,
@@ -388,7 +436,9 @@
         "storage": "512GB SSD",
         "display": "15.6-inch FHD IPS",
         "graphics": "NVIDIA RTX 4050"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Dell G15 Gaming is a powerful gaming laptop with an Intel i7 processor and RTX 4050 graphics. It features 16GB of LPDDR4x memory and a fast 512GB SSD for ample storage. The 15.6-inch FHD IPS display provides stunning visuals, making it ideal for immersive gaming experiences. With its sleek design and powerful performance, the Dell G15 Gaming is a great choice for gamers who need a dependable laptop for their daily computing needs."
     },
     {
       "id": 27,
@@ -403,7 +453,9 @@
         "storage": "256GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The ASUS VivoBook 15 is an affordable laptop with a NanoEdge display. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for everyday use. With its lightweight design and long battery life, the ASUS VivoBook 15 is a great choice for users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 28,
@@ -418,7 +470,9 @@
         "storage": "256GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The Lenovo Yoga 7i is a convertible laptop with a touchscreen and stylus support. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for everyday use. With its lightweight design and long battery life, the Lenovo Yoga 7i is a great choice for users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 29,
@@ -433,7 +487,9 @@
         "storage": "256GB SSD",
         "display": "14.0-inch FHD IPS",
         "graphics": "Intel Iris Xe Graphics"
-      }
+      },
+      "category": "laptops",
+      "detailedescription": "The HP EliteBook 840 is a premium business ultrabook with advanced security features. It features an Intel Core i5-1135G7 processor, 8GB of DDR4 memory, and a fast 256GB SSD for ample storage. The 14.0-inch FHD IPS display provides clear visuals, making it ideal for professional use. With its durable design and long battery life, the HP EliteBook 840 is a great choice for business users who need a reliable laptop for their daily computing needs."
     },
     {
       "id": 30,
@@ -448,7 +504,598 @@
         "storage": "512GB SSD",
         "display": "16.0-inch OLED",
         "graphics": "NVIDIA RTX 3060"
-      }
-    }
+      },
+      "category": "laptops",
+      "detailedescription": "The Gigabyte Aero 16 is a creator-focused laptop with an OLED display and RTX graphics. It features an Intel Core i7-1165G7 processor, 16GB of LPDDR4x memory, and a fast 512GB SSD for ample storage. The 16.0-inch OLED display provides stunning visuals, making it ideal for creative professionals. With its sleek design and powerful performance, the Gigabyte Aero 16 is a great choice for users who need a reliable laptop for their daily computing needs."
+    },
+    {
+    "id": 31,
+    "title": "iPhone 15 Pro Max",
+    "price": 1599,
+    "description": "Apple flagship smartphone with A17 Pro chip and advanced camera system.",
+    "rating": 4.9,
+    "imageUrl": "/assets/second/iphone15.webp",
+    "details": {
+      "processor": "Apple A17 Pro",
+      "ram": "8GB",
+      "storage": "128GB/256GB/512GB/1TB",
+      "display": "6.7-inch Super Retina XDR",
+      "camera": "Triple 48MP + 12MP + 12MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The iPhone 15 Pro Max is Apple's flagship smartphone. It features the powerful A17 Pro chip, 8GB of RAM, and storage options ranging from 128GB to 1TB. The 6.7-inch Super Retina XDR display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the iPhone 15 Pro Max is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 32,
+    "title": "Samsung Galaxy S24 Ultra",
+    "price": 1499,
+    "description": "Premium Android phone with S-Pen support and AI-powered features.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/samsungs24.webp",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 200MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Samsung Galaxy S24 Ultra is a premium Android phone with S-Pen support and AI-powered features. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Samsung Galaxy S24 Ultra is a great choice for users who want the best Android smartphone experience."
+  },
+  {
+    "id": 33,
+    "title": "Google Pixel 8 Pro",
+    "price": 1199,
+    "description": "Google smartphone with advanced AI camera and smooth Android experience.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/google8.webp",
+    "details": {
+      "processor": "Google Tensor G2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Google Pixel 8 Pro is a smartphone with an advanced AI camera and a smooth Android experience. It features the Google Tensor G2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Google Pixel 8 Pro is a great choice for users who want the best Android smartphone experience."
+  },
+  {
+    "id": 34,
+    "title": "OnePlus 12",
+    "price": 999,
+    "description": "Fast performance smartphone with AMOLED display and Hasselblad cameras.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/one12.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The OnePlus 12 is a fast performance smartphone with an AMOLED display and Hasselblad cameras. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the OnePlus 12 is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 35,
+    "title": "Xiaomi 14 Pro",
+    "price": 899,
+    "description": "High-end Xiaomi smartphone with Leica-powered camera setup.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/xiami14.webp",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Xiaomi 14 Pro is a high-end Xiaomi smartphone with a Leica-powered camera setup. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Xiaomi 14 Pro is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 36,
+    "title": "Infinix Zero Ultra",
+    "price": 499,
+    "description": "Affordable smartphone with fast charging and high refresh display.",
+    "rating": 4.4,
+    "imageUrl": "/assets/second/infinixul.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Infinix Zero Ultra is an affordable smartphone with fast charging and a high refresh rate display. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Infinix Zero Ultra is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 37,
+    "title": "Tecno Phantom X2",
+    "price": 599,
+    "description": "Stylish smartphone with powerful performance and long battery life.",
+    "rating": 4.3,
+    "imageUrl": "/assets/second/tecnox2.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Tecno Phantom X2 is a stylish smartphone with powerful performance and long battery life. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Tecno Phantom X2 is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 38,
+    "title": "Oppo Reno 11",
+    "price": 699,
+    "description": "Elegant smartphone with portrait photography enhancements.",
+    "rating": 4.4,
+    "imageUrl": "/assets/second/oppo11.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Oppo Reno 11 is an elegant smartphone with portrait photography enhancements. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Oppo Reno 11 is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 39,
+    "title": "Vivo V30 Pro",
+    "price": 749,
+    "description": "Camera-centric smartphone with ZEISS imaging technology.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/vivo30.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Vivo V30 Pro is a camera-centric smartphone with ZEISS imaging technology. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Vivo V30 Pro is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 40,
+    "title": "Huawei P60 Pro",
+    "price": 1099,
+    "description": "Premium smartphone with advanced mobile photography features.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/huawaeip60.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "smartphones",
+    "detailedescription": "The Huawei P60 Pro is a premium smartphone with advanced mobile photography features. It features a powerful Snapdragon 8 Gen 2 processor, 12GB of RAM, and storage options ranging from 256GB to 1TB. The 6.8-inch Dynamic AMOLED 2X display provides stunning visuals, while the advanced camera system with a triple-lens setup allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Huawei P60 Pro is a great choice for users who want the best smartphone experience."
+  },
+  {
+    "id": 41,
+    "title": "MacBook Pro M3",
+    "price": 2499,
+    "description": "Apple laptop powered by M3 chip for professional workflows.",
+    "rating": 4.9,
+    "imageUrl": "/assets/second/macbookm3.jpeg",
+    "details": {
+      "processor": "Apple M3",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "14.2-inch Liquid Retina XDR",
+      "camera": "12MP"
+    },
+    "category": "laptops",
+    "detailedescription": "The MacBook Pro M3 is an Apple laptop powered by the M3 chip for professional workflows. It features a powerful M3 processor, 16GB of RAM, and storage options ranging from 512GB to 2TB. The 14.2-inch Liquid Retina XDR display provides stunning visuals, while the advanced camera system with a 12MP sensor allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the MacBook Pro M3 is a great choice for users who want the best laptop experience."
+  },
+  {
+    "id": 42,
+    "title": "Dell XPS 15",
+    "price": 1899,
+    "description": "Premium ultrabook with InfinityEdge display and Intel Core i9.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/dell15.jpeg",
+    "details": {
+      "processor": "Intel Core i9",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "15.6-inch InfinityEdge",
+      "camera": "720p"
+    },
+    "category": "laptops",
+    "detailedescription": "The Dell XPS 15 is a premium ultrabook with an InfinityEdge display and Intel Core i9 processor. It features 16GB of RAM and storage options ranging from 512GB to 2TB. The 15.6-inch InfinityEdge display provides stunning visuals, while the advanced camera system with a 720p sensor allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Dell XPS 15 is a great choice for users who want the best laptop experience."
+  },
+  {
+    "id": 43,
+    "title": "HP Spectre x360",
+    "price": 1699,
+    "description": "Convertible laptop with touchscreen and elegant design.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/hpx360.jpeg",
+    "details": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "13.3-inch touchscreen",
+      "camera": "720p"
+    },
+    "category": "laptops",
+    "detailedescription": "The HP Spectre x360 is a convertible laptop with a touchscreen and elegant design. It features an Intel Core i7 processor, 16GB of RAM, and storage options ranging from 512GB to 2TB. The 13.3-inch touchscreen display provides stunning visuals, while the advanced camera system with a 720p sensor allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the HP Spectre x360 is a great choice for users who want the best laptop experience."
+  },
+  {
+    "id": 44,
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "price": 1799,
+    "description": "Business laptop with durable build and excellent keyboard.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/lenovox1.jpeg",
+    "details": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "13.3-inch touchscreen",
+      "camera": "720p"
+    },
+    "category": "laptops",
+    "detailedescription": "The Lenovo ThinkPad X1 Carbon is a business laptop with a durable build and an excellent keyboard. It features an Intel Core i7 processor, 16GB of RAM, and storage options ranging from 512GB to 2TB. The 13.3-inch touchscreen display provides stunning visuals, while the advanced camera system with a 720p sensor allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Lenovo ThinkPad X1 Carbon is a great choice for users who want the best laptop experience."
+  },
+  {
+    "id": 45,
+    "title": "Asus ROG Zephyrus G14",
+    "price": 1999,
+    "description": "Compact gaming laptop with Ryzen processor and RTX graphics.",
+    "rating": 4.9,
+    "imageUrl": "/assets/second/asus.jpeg",
+    "details": {
+      "processor": "Ryzen 9",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "14-inch QHD",
+      "camera": "720p"
+    },
+    "category": "laptops",
+    "detailedescription": "The Asus ROG Zephyrus G14 is a compact gaming laptop with a Ryzen processor and RTX graphics. It features a 14-inch QHD display and a 720p camera. With its powerful hardware and sleek design, the Asus ROG Zephyrus G14 is a great choice for gamers who want the best performance in a portable package."
+  },
+  {
+    "id": 46,
+    "title": "Acer Predator Helios 300",
+    "price": 1599,
+    "description": "Gaming laptop with high refresh rate display and RTX GPU.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/acer300.jpeg",
+    "details": {
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB/1TB/2TB",
+      "display": "15.6-inch Full HD",
+      "camera": "720p"
+    },
+    "category": "laptops",
+    "detailedescription": "The Acer Predator Helios 300 is a gaming laptop with a high refresh rate display and RTX GPU. It features an Intel Core i7 processor, 16GB of RAM, and storage options ranging from 512GB to 2TB. The 15.6-inch Full HD display provides stunning visuals, while the advanced camera system with a 720p sensor allows for professional-quality photos and videos. With its sleek design and cutting-edge technology, the Acer Predator Helios 300 is a great choice for gamers who want the best performance in a portable package."
+  },
+  {
+    "id": 47,
+    "title": "Logitech MX Master 3S",
+    "price": 129,
+    "description": "Advanced wireless mouse designed for productivity and comfort.",
+    "rating": 4.9,
+    "imageUrl": "/assets/second/logitechmx.jpeg",
+    "details": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB/512GB/1TB",
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "camera": "Triple 50MP + 12MP + 10MP"
+    },
+    "category": "accessories",
+    "detailedescription": "The Logitech MX Master 3S is an advanced wireless mouse designed for productivity and comfort. It features a sleek design and intuitive controls, making it perfect for professionals who need a reliable and efficient mouse."
+  },
+  {
+    "id": 48,
+    "title": "Mechanical RGB Keyboard",
+    "price": 149,
+    "description": "Durable mechanical keyboard with customizable RGB lighting.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/rgbkey.jpeg",
+    "details": {
+      "switch": "Cherry MX Red",
+      "lighting": "RGB"
+    },
+    "category": "accessories",
+    "detailedescription": "The Mechanical RGB Keyboard is a durable mechanical keyboard with customizable RGB lighting. It features Cherry MX Red switches and a sleek design, making it perfect for gamers and professionals who need a reliable and efficient keyboard."
+  },
+  {
+    "id": 49,
+    "title": "Laptop Cooling Pad",
+    "price": 49,
+    "description": "Efficient cooling pad with multiple silent fans.",
+    "rating": 4.4,
+    "imageUrl": "/assets/second/laptopcool.jpeg",
+    "details": {
+      "fans": "Multiple silent fans"
+    },
+    "category": "accessories",
+    "detailedescription": "The Laptop Cooling Pad is an efficient cooling pad with multiple silent fans. It helps to keep your laptop cool during intensive tasks and gaming sessions."
+  },
+  {
+    "id": 50,
+    "title": "USB-C Docking Station",
+    "price": 199,
+    "description": "Multi-port docking station for laptops and external displays.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/usbc.jpeg",
+    "details": {
+      "ports": "Multiple USB-C ports"
+    },
+    "category": "accessories",
+    "detailedescription": "The USB-C Docking Station is a multi-port docking station for laptops and external displays. It provides a convenient way to connect your laptop to various peripherals and displays."
+  },
+  {
+    "id": 51,
+    "title": "Wireless Laptop Mouse",
+    "price": 39,
+    "description": "Portable wireless mouse with ergonomic design.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/mousew.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "accessories",
+    "detailedescription": "The Wireless Laptop Mouse is a portable wireless mouse with an ergonomic design. It provides smooth and precise cursor control for comfortable use during long work sessions."
+  },
+  {
+    "id": 52,
+    "title": "External SSD 1TB",
+    "price": 149,
+    "description": "Fast portable SSD for backups and file transfers.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/ssdexter.jpeg",
+    "details": {
+      "storage": "1TB"
+    },
+    "category": "accessories",
+    "detailedescription": "The External SSD 1TB is a fast portable SSD for backups and file transfers. It features high-speed data transfer rates and a durable design, making it perfect for professionals who need to carry their data with them."
+  },
+  {
+    "id": 53,
+    "title": "Laptop Backpack",
+    "price": 69,
+    "description": "Water-resistant backpack with laptop compartment.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/backpack.jpeg",
+    "details": {
+      "compartment": "Laptop compartment"
+    },
+    "category": "accessories",
+    "detailedescription": "The Laptop Backpack is a water-resistant backpack with a dedicated laptop compartment. It provides secure storage for your laptop and other essentials, making it perfect for professionals who need to carry their equipment with them."
+  },
+  {
+    "id": 54,
+    "title": "Noise Cancelling Headphones",
+    "price": 299,
+    "description": "Premium over-ear headphones with active noise cancellation.",
+    "rating": 4.9,
+    "imageUrl": "/assets/second/headphones.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "accessories",
+    "detailedescription": "The Noise Cancelling Headphones are premium over-ear headphones with active noise cancellation. They provide immersive sound quality and comfortable wear for extended listening sessions."
+  },
+  {
+    "id": 55,
+    "title": "Webcam Full HD",
+    "price": 89,
+    "description": "1080p webcam ideal for streaming and video conferencing.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/webcam.jpeg",
+    "details": {
+      "resolution": "1080p"
+    },
+    "category": "accessories",
+    "detailedescription": "The Webcam Full HD is a 1080p webcam ideal for streaming and video conferencing. It provides clear and crisp video quality for professional use."
+  },
+  {
+    "id": 56,
+    "title": "Laptop Stand Adjustable",
+    "price": 59,
+    "description": "Ergonomic adjustable stand for improved posture.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/standlap.jpeg",
+    "details": {
+      "adjustability": "Ergonomic adjustable"
+    },
+    "category": "accessories",
+    "detailedescription": "The Laptop Stand Adjustable is an ergonomic adjustable stand for improved posture. It provides a comfortable and healthy setup for your laptop during work or gaming sessions."
+  },
+  {
+    "id": 57,
+    "title": "Canon PIXMA G6020",
+    "price": 349,
+    "description": "All-in-one wireless printer with refillable ink tank.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/canong6020.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The Canon PIXMA G6020 is an all-in-one wireless printer with a refillable ink tank. It provides high-quality printing performance and convenient wireless connectivity for home and office use."
+  },
+  {
+    "id": 58,
+    "title": "HP LaserJet Pro M404",
+    "price": 429,
+    "description": "Reliable monochrome laser printer for office use.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/hplaserpro.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The HP LaserJet Pro M404 is a reliable monochrome laser printer for office use. It provides fast and efficient printing performance with wireless connectivity for easy setup and use."
+  },
+  {
+    "id": 59,
+    "title": "Epson EcoTank ET-2850",
+    "price": 399,
+    "description": "EcoTank printer with cartridge-free printing system.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/epsoneco.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The Epson EcoTank ET-2850 is an eco-friendly printer with a cartridge-free printing system. It provides high-quality printing performance and convenient wireless connectivity for home and office use."
+  },
+  {
+    "id": 60,
+    "title": "Brother HL-L2350DW",
+    "price": 249,
+    "description": "Compact monochrome laser printer with wireless connectivity.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/brotherhl.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The Brother HL-L2350DW is a compact monochrome laser printer with wireless connectivity. It provides reliable printing performance for home and office use."
+  },
+  {
+    "id": 61,
+    "title": "Samsung Xpress M2020W",
+    "price": 199,
+    "description": "Compact wireless printer suitable for home offices.",
+    "rating": 4.4,
+    "imageUrl": "/assets/second/samsungm2020.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The Samsung Xpress M2020W is a compact wireless printer suitable for home offices. It provides convenient wireless connectivity and reliable printing performance."
+  },
+  {
+    "id": 62,
+    "title": "Portable Photo Printer",
+    "price": 129,
+    "description": "Mini portable printer for instant smartphone photos.",
+    "rating": 4.3,
+    "imageUrl": "/assets/second/portable.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "printers",
+    "detailedescription": "The Portable Photo Printer is a mini portable printer for instant smartphone photos. It provides convenient wireless connectivity and reliable printing performance."
+  },
+  {
+    "id": 63,
+    "title": "Wireless Earbuds Pro",
+    "price": 199,
+    "description": "True wireless earbuds with immersive sound quality.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/earbudspro.jpeg",
+    "details": {
+      "connectivity": "Wireless"
+    },
+    "category": "accessories",
+    "detailedescription": "The Wireless Earbuds Pro are true wireless earbuds with immersive sound quality. They provide a seamless listening experience with convenient wireless connectivity."
+  },
+  {
+    "id": 64,
+    "title": "Gaming Mouse Pad XL",
+    "price": 35,
+    "description": "Large mouse pad optimized for gaming precision.",
+    "rating": 4.5,
+    "imageUrl": "/assets/second/mousew.jpeg",
+    "details": {
+      "size": "XL"
+    },
+    "category": "accessories",
+    "detailedescription": "The Gaming Mouse Pad XL is a large mouse pad optimized for gaming precision. It provides a comfortable and responsive surface for precise cursor control."
+  },
+  {
+    "id": 65,
+    "title": "USB-C Fast Charger",
+    "price": 45,
+    "description": "65W fast charger compatible with phones and laptops.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/usbccharger.jpeg",
+    "details": {
+      "power": "65W"
+    },
+    "category": "accessories",
+    "detailedescription": "The USB-C Fast Charger is a 65W fast charger compatible with phones and laptops. It provides fast and efficient charging for your devices, making it perfect for professionals who need to keep their devices powered throughout the day."
+  },
+  {
+    "id": 66,
+    "title": "Bluetooth Speaker",
+    "price": 99,
+    "description": "Portable speaker with deep bass and waterproof design.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/speaker.jpeg",
+    "details": {
+      "connectivity": "Bluetooth"
+    },
+    "category": "accessories",
+    "detailedescription": "The Bluetooth Speaker is a portable speaker with deep bass and waterproof design. It provides high-quality sound and durability for outdoor use."
+  },
+  {
+    "id": 67,
+    "title": "4K External Monitor",
+    "price": 499,
+    "description": "Ultra HD monitor ideal for gaming and productivity.",
+    "rating": 4.8,
+    "imageUrl": "/assets/second/4kmonitor.jpeg",
+    "details": {
+      "resolution": "4K"
+    },
+    "category": "accessories",
+    "detailedescription": "The 4K External Monitor is an ultra HD monitor ideal for gaming and productivity. It provides stunning visuals and a large screen for an immersive experience."
+  },
+  {
+    "id": 68,
+    "title": "Smartphone Tripod",
+    "price": 29,
+    "description": "Adjustable tripod stand for smartphones and cameras.",
+    "rating": 4.4,
+    "imageUrl": "/assets/second/tripod.jpeg",
+    "details": {
+      "adjustability": "Adjustable"
+    },
+    "category": "accessories",
+    "detailedescription": "The Smartphone Tripod is an adjustable tripod stand for smartphones and cameras. It provides stable support for capturing photos and videos in various situations."
+  },
+  {
+    "id": 69,
+    "title": "Gaming Headset",
+    "price": 149,
+    "description": "Surround sound gaming headset with detachable microphone.",
+    "rating": 4.7,
+    "imageUrl": "/assets/second/gaming-head.jpeg",
+    "details": {
+      "connectivity": "Wired"
+    },
+    "category": "accessories",
+    "detailedescription": "The Gaming Headset is a surround sound gaming headset with a detachable microphone. It provides immersive audio for an enhanced gaming experience."
+  },
+  {
+    "id": 70,
+    "title": "Portable Power Bank 20000mAh",
+    "price": 79,
+    "description": "High-capacity power bank with fast charging support.",
+    "rating": 4.6,
+    "imageUrl": "/assets/second/powerbank.jpeg",
+    "details": {
+      "capacity": "20000mAh"
+    },
+    "category": "accessories",
+    "detailedescription": "The Portable Power Bank 20000mAh is a high-capacity power bank with fast charging support. It provides reliable power for your devices on the go."
+  }
   ]
 }
