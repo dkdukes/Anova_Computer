@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { useCart } from "@/context/CartContext";
 import { Link, useNavigate } from "react-router-dom";
+import { Trash2 } from "lucide-react";
 
 function Cart() {
   const { cart, removeFromCart, clearCart, updateQuantity } = useCart();
@@ -17,23 +18,15 @@ function Cart() {
   };
 
   const total_sum = useMemo(() => {
-    return cart.reduce(
-      (acc, item) => acc + item.price * item.quantity,
-      0
-    );
+    return cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
   }, [cart]);
 
   if (cart.length === 0) {
     return (
       <div className="text-center mt-10">
-        <h1 className="text-2xl font-bold mb-4">
-          Your cart is empty
-        </h1>
+        <h1 className="text-2xl font-bold mb-4">Your cart is empty</h1>
 
-        <Link
-          to="/"
-          className="bg-green-500 text-white px-4 py-2 rounded"
-        >
+        <Link to="/" className="bg-green-500 text-white px-4 py-2 rounded">
           Shop Now
         </Link>
       </div>
@@ -42,9 +35,7 @@ function Cart() {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-center mb-6 font-bold text-3xl">
-        Cart
-      </h1>
+      <h1 className="text-center mb-6 font-bold text-3xl">Cart</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* LEFT: Cart Items */}
@@ -61,20 +52,14 @@ function Cart() {
               />
 
               <div className="flex-1">
-                <h2 className="font-semibold">
-                  {item.title}
-                </h2>
+                <h2 className="font-semibold">{item.title}</h2>
 
-                <p className="text-blue-600 font-bold">
-                  ${item.price}
-                </p>
+                <p className="text-blue-600 font-bold">${item.price}</p>
 
                 <div className="flex items-center gap-3 mt-2">
                   <button
                     className="px-3 py-1 bg-gray-200 rounded"
-                    onClick={() =>
-                      handleDecrement(item.id, item.quantity)
-                    }
+                    onClick={() => handleDecrement(item.id, item.quantity)}
                   >
                     -
                   </button>
@@ -83,9 +68,7 @@ function Cart() {
 
                   <button
                     className="px-3 py-1 bg-gray-200 rounded"
-                    onClick={() =>
-                      handleIncrement(item.id, item.quantity)
-                    }
+                    onClick={() => handleIncrement(item.id, item.quantity)}
                   >
                     +
                   </button>
@@ -98,9 +81,9 @@ function Cart() {
 
               <button
                 onClick={() => removeFromCart(item.id)}
-                className="bg-red-500 hover:bg-red-700 text-white px-3 py-2 rounded"
+                className="p-2 rounded-lg text-red-500 hover:bg-red-50 hover:text-red-600 transition"
               >
-                Remove
+                <Trash2 size={18} />
               </button>
             </div>
           ))}
@@ -125,13 +108,9 @@ function Cart() {
 
         {/* RIGHT: Summary */}
         <div className="bg-white shadow-md rounded-lg p-6 h-fit">
-          <h2 className="text-xl font-bold mb-4">
-            Your Order
-          </h2>
+          <h2 className="text-xl font-bold mb-4">Your Order</h2>
 
-          <p className="text-lg font-bold">
-            Subtotal: ${total_sum.toFixed(2)}
-          </p>
+          <p className="text-lg font-bold">Subtotal: ${total_sum.toFixed(2)}</p>
 
           <p className="text-sm text-gray-600 mt-2">
             Shipping and taxes calculated at checkout.

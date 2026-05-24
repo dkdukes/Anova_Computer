@@ -4,14 +4,10 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 px-6 py-10 mt-12">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-
         {/* Contacts + Hours */}
         <div className="space-y-6">
-          
           <div>
-            <h2 className="text-white text-lg font-semibold mb-2">
-              Contacts
-            </h2>
+            <h2 className="text-white text-lg font-semibold mb-2">Contacts</h2>
             <p>Email: info@anova.com</p>
             <p>Phone: +254 700 000 000</p>
             <p>Address: 123 Main Street, Nairobi, Kenya</p>
@@ -26,7 +22,6 @@ function Footer() {
             <p>Public Holidays: 10:00 AM - 4:00 PM</p>
             <p>Sunday: Closed</p>
           </div>
-
         </div>
 
         {/* Popular Links */}
@@ -56,15 +51,37 @@ function Footer() {
 
         {/* Payment */}
         <div className="space-y-6">
-
           <div>
             <h2 className="text-white text-lg font-semibold mb-3">
               Payment Methods
             </h2>
-            <ul className="space-y-2">
-              <li className="hover:text-white transition">Visa</li>
-              <li className="hover:text-white transition">Paybill</li>
-              <li className="hover:text-white transition">Cash</li>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-3 hover:text-white transition cursor-pointer">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/349/349221.png"
+                  alt="Visa"
+                  className="w-10 h-6 object-contain"
+                />
+                <span>Visa</span>
+              </li>
+
+              <li className="flex items-center gap-3 hover:text-white transition cursor-pointer">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg"
+                  alt="M-Pesa Paybill"
+                  className="w-10 h-6 object-contain bg-white rounded px-1"
+                />
+                <span>Paybill</span>
+              </li>
+
+              <li className="flex items-center gap-3 hover:text-white transition cursor-pointer">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2489/2489756.png"
+                  alt="Cash"
+                  className="w-10 h-6 object-contain"
+                />
+                <span>Cash</span>
+              </li>
             </ul>
           </div>
 
@@ -76,9 +93,7 @@ function Footer() {
               Upfront Payment Outside Nairobi
             </p>
           </div>
-
         </div>
-
       </div>
 
       {/* Bottom bar */}
