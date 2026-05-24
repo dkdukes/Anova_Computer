@@ -1,16 +1,70 @@
-# React + Vite
+# Anova Technologies E-Commerce App
+By: Anova Technologies 20/05/2025 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack e-commerce web application built with React, Firebase, json and Tailwind CSS.
+It provides a seamless shopping experience with authentication, product browsing, cart management, and checkout flow.
+## Features
+- User Authentication (Login/Sign Up with Firebase)
+- Dynamic Product Pages
+- Add to Cart/Remove from Cart functionality
+- Quantity Management in Cart
+- Checkout flow
+- Firestore database integration
+- Modern responsive UI with Tailwind CSS
+- Fast and Optimized React components
+## Tech Stack
+- React
+- Styling: Tailwind CSS
+- Backend - Firebase
+                - User Authentication
+                - Firestore Database
 
-Currently, two official plugins are available:
+            Json
+                - Product Management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## UI Preview
+### Homepage
+<img src="./src/assets/home.png" alt="Homepage image"/>
 
-## React Compiler
+### Sign Up
+<img src="./src/assets/signup.png" alt="Sign up image"/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Login
+<img src="./src/assets/login.png" alt="Login Image">
 
-## Expanding the ESLint configuration
+### Product Details
+<img src="./src/assets/details.png" alt="Product details image"/>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+
+### Clone the Repository
+- git clone https://github.com/dkdukes/Anova_Computer
+- cd Anova_Computer
+### Installation dependencies
+- npm install
+### Run the project
+- npm run dev
+## Core Features
+### Authentication
+Users can sign up and log in securely using Firebase Authentication.
+### Product System
+Products are dynamically loaded and displayed from a database.
+### Cart System
+- Add products to cart
+- Update quantity
+- Remove items instantly
+- Live total calculation
+### Checkout
+An order is placed and the cart is reset
+## Future Improvements
+- Admin dashboard for product management
+- Payment gateway integration (Mpesa/Visa)
+- Order history tracking
+- Product search & filters
+- Wishlist feature
+- Dark mode UI
+## License
+This project is open-source and available under the MIT License
+
+
+
