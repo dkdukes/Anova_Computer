@@ -15,12 +15,12 @@ It provides a seamless shopping experience with authentication, product browsing
 ## Tech Stack
 - React
 - Styling: Tailwind CSS
-- Backend - Firebase
-                - User Authentication
-                - Firestore Database
-
-            Json
-                - Product Management
+- Backend 
+    - Firebase
+        - User Authentication
+        - Firestore Database
+    - Json
+         - Product Management
 
 ## UI Preview
 ### Homepage
@@ -40,7 +40,7 @@ It provides a seamless shopping experience with authentication, product browsing
 ### Clone the Repository
 - git clone https://github.com/dkdukes/Anova_Computer
 - cd Anova_Computer
-### Installation dependencies
+### Installing dependencies
 - npm install
 ### Run the project
 - npm run dev
