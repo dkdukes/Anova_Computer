@@ -56,9 +56,9 @@ function Signup() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 via-white to-gray-200 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-950 via-white to-gray-200 px-4">
 
-      <div className="w-full max-w-md bg-white border border-gray-200 shadow-xl rounded-2xl p-8">
+      <div className="w-full max-w-md bg-gray-900 border border-gray-800 shadow-xl rounded-2xl p-8">
 
         {/* Header */}
         <div className="text-center mb-6">
@@ -66,11 +66,11 @@ function Signup() {
             <UserPlus className="text-white" size={26} />
           </div>
 
-          <h1 className="text-2xl font-bold text-gray-800 mt-4">
+          <h1 className="text-2xl font-bold text-white mt-4">
             Create Account
           </h1>
 
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-400">
             Join us and start shopping
           </p>
         </div>
@@ -94,7 +94,7 @@ function Signup() {
               placeholder="Full Name"
               value={form.name}
               onChange={handleChange}
-              className="w-full bg-gray-50 border border-gray-200 rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full bg-gray-800 border-gray-700 text-white border  rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -108,7 +108,7 @@ function Signup() {
               placeholder="Email address"
               value={form.email}
               onChange={handleChange}
-              className="w-full bg-gray-50 border border-gray-200 rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full  border bg-gray-800 border-gray-700 text-white rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -122,7 +122,7 @@ function Signup() {
               placeholder="Phone number"
               value={form.phone}
               onChange={handleChange}
-              className="w-full bg-gray-50 border border-gray-200 rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full bg-gray-800 border-gray-700 text-white border  rounded-lg py-3 pl-10 pr-3  focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -136,7 +136,7 @@ function Signup() {
               placeholder="Password"
               value={form.password}
               onChange={handleChange}
-              className="w-full bg-gray-50 border border-gray-200 rounded-lg py-3 pl-10 pr-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full bg-gray-800 border-gray-700 text-white border  rounded-lg py-3 pl-10 pr-3  focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -145,7 +145,7 @@ function Signup() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 rounded-lg transition disabled:opacity-50"
+            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded-lg transition disabled:opacity-50"
           >
             {loading ? "Creating account..." : "Sign Up"}
           </button>
@@ -154,7 +154,7 @@ function Signup() {
         {/* Footer */}
         <p className="text-center text-sm text-gray-500 mt-5">
           Already have an account?{" "}
-          <Link to="/login" className="text-green-600 hover:underline">
+          <Link to="/login" className="text-blue-500 hover:underline">
             Login
           </Link>
         </p>
