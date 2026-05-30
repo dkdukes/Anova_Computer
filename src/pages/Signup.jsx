@@ -4,6 +4,7 @@ import { auth, db } from "@/firebase";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, Link } from "react-router-dom";
 import { User, Mail, Phone, Lock, UserPlus } from "lucide-react";
+import { signOut } from "firebase/auth";
 
 function Signup() {
   const navigate = useNavigate();
@@ -47,6 +48,7 @@ function Signup() {
         createdAt: new Date(),
       });
 
+      await signOut(auth);
       navigate("/login");
     } catch (error) {
       setError(error.message);
